@@ -1,0 +1,5 @@
+ignore:
+  - "internal/regexp/backtrack.go"
+  - "internal/regexp/exec.go"
+  - "internal/regexp/onepass.go"
+  - "internal/regexp/regexp.go"
