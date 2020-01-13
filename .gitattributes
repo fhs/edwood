@@ -4,3 +4,5 @@ build/bin_linux/9pserve binary
 build/bin_linux/devdraw binary
 build/bin_darwin/9pserve binary
 build/bin_darwin/devdraw binary
+build/font/lucm/cyrillic.9 binary
+build/font/shinonome/k14.5c01 binary
