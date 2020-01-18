@@ -5,5 +5,6 @@ build/bin_darwin/9pserve binary
 build/bin_darwin/devdraw binary
 build/font/lucm/* binary
 build/font/lucsans/lsr.14 binary
+build/font/lucsans/*.font text eol=lf
 build/font/misc/* binary
 build/font/shinonome/* binary
