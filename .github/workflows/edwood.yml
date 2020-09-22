@@ -1,3 +1,5 @@
+# Based on https://github.com/mvdan/github-actions-golang
+
 on: [push, pull_request]
 name: edwood
 
@@ -43,6 +45,9 @@ jobs:
         go get github.com/client9/misspell/cmd/misspell@v0.3.4
       working-directory: /
       shell: bash
+
+    - name: Check if 'go get' modified go.mod file
+      run: git diff --exit-code
 
     - name: Run staticcheck
       run: staticcheck -checks inherit,-U1000,-SA4003 ./...
